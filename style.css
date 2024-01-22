@@ -1,0 +1,96 @@
+body{
+    animation-name: color-shift;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+@keyframes color-shift{
+    0%{
+        background-color: skyblue;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: purple;
+    }
+    75%{
+        background-color:violet;
+    }
+    100%{
+        background-color: skyblue;
+    }
+    }
+
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    animation-name: heading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-family: 'Comic Sans MS';
+}
+
+@keyframes heading {
+    0%{
+        color: black;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: orange;
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        color: green;
+    }
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+table{
+    margin: auto;
+    border: solid;
+    border-radius: 10px;
+}
+
+.box {
+    width: 100px;
+    margin: 2px;
+}
+
+.box1{
+    width: 50%;
+}
+
+
+.box2{
+    width: 50%;
+}
+
+.scoreboard{
+    background-color: lightgoldenrodyellow;
+    width:  300px;
+    height: 300px;
+    text-align: center;
+}
+
+#goldscore{
+    padding: 50px;
+    font-family: 'Comic Sans MS';
+}
+
+#rustscore{
+    padding: 50px;
+    font-family: 'Comic Sans MS';
+}
